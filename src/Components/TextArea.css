@@ -1,0 +1,39 @@
+button{
+    text-decoration: none;
+    border: none;
+}
+
+.container{
+    margin: 50px auto;
+    width:70%;
+    height:50vh;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    gap: 10px;
+  /* background-color: rgb(185, 192, 198); */
+
+}
+.container > strong{
+    font-size: 30px;
+    color:coral;
+}
+#text-area{
+    width:80%;
+    height: 100vh;
+    margin-top: 10px;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    gap:50px;
+}
+.buttons > button{
+    width:fit-content;
+    padding: 10px;
+    height: fit-content;
+    color: white;
+    background-color: green;
+}

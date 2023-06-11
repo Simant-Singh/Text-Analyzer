@@ -1,0 +1,36 @@
+.contact-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    width:70%;
+    margin: 0 auto;
+    /* padding: 10px 20px; */
+}
+.contact-container > h1{
+    color: coral;
+}
+.contact-container > p{
+    text-align: center;
+}
+.contact-details{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    justify-content: center;
+    align-items: center;
+}
+.contact-details > div{
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+}
+.contact-details input{
+    width:16vw;
+    height:4vh;
+}
+.contact-details textarea{
+    width:35vw;
+    height: 30vh;
+}

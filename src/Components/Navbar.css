@@ -1,0 +1,58 @@
+a{
+    text-decoration: none;
+    color: white;
+}
+
+nav{
+    height: fit-content;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #1F2633;
+}
+nav > section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.rightSideNav{
+    gap: 30px;
+}
+.leftSideNav{
+    gap:10px;
+}
+section > *{
+    color: white;
+}
+
+.dark-light-mode-checkbox{
+    width:0;
+    height: 0;
+    opacity: 0;
+}
+.dark-light-mode-toggle-label{
+    width:51px;
+    height: 31px;
+    background-color: #c5d1dc84;
+    border-radius: 30px;  
+    position: relative;  
+    transition: background-color 200ms ease-in;
+}
+.dark-light-mode-enabled-circle{
+    width:27px;
+    height: 27px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    margin: 2px;
+    transition: transform 200ms ease-in;
+    /* background: linear-gradient(to left, ); */
+}
+.currentPage{
+    text-decoration: underline;
+    color: white;
+}
+.notCurrentPage{
+    text-decoration: none;
+}
