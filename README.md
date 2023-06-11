@@ -6,6 +6,6 @@ This is a Text Utils app which allows you to analyze the text and perform variou
 
 ```
 	npm start 
-			'''
+'''
 
 
