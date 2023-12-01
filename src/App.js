@@ -39,7 +39,7 @@ function App() {
     <>
       <Navbar enableDarkModeOnClick={enableDarkModeOnClick} darkLightModeNav={{ backgroundColor: state.modeEnabled }} darkLightModeTextNav={state.modeTextNav} darkLightModeText={{ color: state.textModeEnabled }} transitionCircle={{ transform: `translateX( ${state.translateXValue} )` }} backgroundColorDarkMode={{ backgroundColor: state.labelBackgroundColor }} currentPgIsContact={{textDecoration : state.contactPgUnderline}} />
       <Routes>
-        <Route path="/" element={<TextArea backgroundColorButton={{ backgroundColor: state.btnBgColor, color: state.textModeEnabled }} textAreaColor={{ color: state.textColor }} />}>
+        <Route path="/Text-Analyzer" element={<TextArea backgroundColorButton={{ backgroundColor: state.btnBgColor, color: state.textModeEnabled }} textAreaColor={{ color: state.textColor }} />}>
         </Route>
         <Route path="/contact" element={<Contact textAreaColor={{ color: state.textColor }} />}>
         </Route>

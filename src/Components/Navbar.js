@@ -13,7 +13,7 @@ export default function Navbar(props) {
     const location = useLocation();
 
     useEffect(() => {
-        if (window.location.pathname === "/"){
+        if (window.location.pathname === "/Text-Analyzer"){
             setCurrentPgIsHome("underline")
             setCurrentPgIsContact("none")
         }
@@ -30,7 +30,7 @@ export default function Navbar(props) {
                 <section className="rightSideNav">
                     <h1 style={props.darkLightModeText}>Text Tool Services</h1>
                     <div className="about">
-                        <Link to="/" style={{textDecoration: currentPgIsHome, ...props.darkLightModeText}}>Home</Link>
+                        <Link to="/Text-Analyzer" style={{textDecoration: currentPgIsHome, ...props.darkLightModeText}}>Home</Link>
                     </div>
                     <div className="contacts">
                         <Link to="/contact" style={{textDecoration: currentPageIsContact, ...props.darkLightModeText}}>Contact Us</Link>
